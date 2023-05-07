@@ -1,5 +1,8 @@
 ### Olá! Eu sou João Victor Rémi 🖐
 
+-💻 Trabalho com Ciência de Dados 
+-🌱 Estudando Javascript, HTML, PYTHON E Front-End.
+-😊 Pronomes: ele/dele
 
 [![Snapchat](https://img.shields.io/badge/Snapchat-FFFC00?style=for-the-badge&logo=snapchat&logoColor=white)](https://accounts.snapchat.com/accounts/welcome)
 [![Watzzap](https://img.shields.io/badge/Pinterest-%23E60023.svg?&style=for-the-badge&logo=Pinterest&logoColor=white)](https://br.pinterest.com/joaovitorsilva20302040/)
