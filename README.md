@@ -1,28 +1,66 @@
-### Olá! Eu sou João Victor Rémi 🖐
+import { Card, CardContent } from "@/components/ui/card"; import { Button } from "@/components/ui/button"; import { Facebook, Instagram, Phone } from "lucide-react";
 
--💻 Trabalho com Ciência de Dados 
--🌱 Estudando Javascript, HTML, PYTHON E Front-End.
--😊 Pronomes: ele/dele
+export default function ChronoBeats() { return ( <main className="bg-black text-white min-h-screen"> {/* Header */} <header className="p-6 flex justify-between items-center border-b border-gray-800"> <h1 className="text-3xl font-bold text-white">ChronoBeats</h1> <nav className="space-x-6"> <a href="#home" className="hover:text-purple-400">Home</a> <a href="#about" className="hover:text-purple-400">Sobre</a> <a href="#products" className="hover:text-purple-400">Produtos</a> <a href="#contact" className="hover:text-purple-400">Contato</a> </nav> </header>
 
-[![Snapchat](https://img.shields.io/badge/Snapchat-FFFC00?style=for-the-badge&logo=snapchat&logoColor=white)](https://accounts.snapchat.com/accounts/welcome)
-[![Watzzap](https://img.shields.io/badge/Pinterest-%23E60023.svg?&style=for-the-badge&logo=Pinterest&logoColor=white)](https://br.pinterest.com/joaovitorsilva20302040/)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100036062943150)
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-vitor-silva-a24888236/)
+{/* Hero Section */}
+  <section id="home" className="p-10 text-center bg-gradient-to-br from-purple-900 to-black">
+    <h2 className="text-4xl font-bold mb-4">Estilo que pulsa no seu ritmo</h2>
+    <p className="text-lg text-gray-300">Fones, relógios e muito mais em um só lugar</p>
+  </section>
 
-![JOAOVICTOR2030 GitHub stats](https://github-readme-stats.vercel.app/api?username=joaovictorsilva&show_icons=true&theme=radical)
+  {/* Sobre */}
+  <section id="about" className="p-10 bg-black">
+    <h2 className="text-2xl font-bold mb-4 text-purple-300">Sobre a ChronoBeats</h2>
+    <p className="text-gray-400 max-w-3xl">
+      A ChronoBeats é uma loja especializada em eletrônicos modernos como fones, relógios e smartwatches. Com produtos de alta qualidade e um atendimento personalizado, buscamos sempre oferecer o melhor para você que vive no ritmo do tempo.
+    </p>
+  </section>
 
-## Tecnologias que uso no meu dia a dia
+  {/* Produtos */}
+  <section id="products" className="p-10 bg-black">
+    <h2 className="text-2xl font-bold mb-6 text-purple-300">Nossos Produtos</h2>
+    <div className="grid md:grid-cols-3 gap-6">
+      <Card>
+        <CardContent className="p-4">
+          <img src="/fones.jpg" alt="Fone de Ouvido" className="rounded-xl mb-4" />
+          <h3 className="text-xl font-semibold">Fones de Ouvido</h3>
+          <p className="text-sm text-gray-400">Qualidade sonora para o seu dia a dia.</p>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardContent className="p-4">
+          <img src="/relogio.jpg" alt="Relógio" className="rounded-xl mb-4" />
+          <h3 className="text-xl font-semibold">Relógios Estilosos</h3>
+          <p className="text-sm text-gray-400">Estilo e funcionalidade no seu pulso.</p>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardContent className="p-4">
+          <img src="/smartwatch.jpg" alt="Smartwatch" className="rounded-xl mb-4" />
+          <h3 className="text-xl font-semibold">Smartwatches</h3>
+          <p className="text-sm text-gray-400">Tecnologia conectada ao seu tempo.</p>
+        </CardContent>
+      </Card>
+    </div>
+  </section>
 
-<div style="display: inline_block"><br/
-><img align="center" alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-><img align="center" alt="html5" src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" />
-</d><img align="center" alt="html5" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-</d><img align="center" alt="html5" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-</div><img align="center" alt="html5" src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" />
-<div><br/>
+  {/* Contato */}
+  <section id="contact" className="p-10 bg-gradient-to-tr from-black to-purple-900">
+    <h2 className="text-2xl font-bold mb-6 text-purple-200">Fale com a gente</h2>
+    <div className="flex flex-col md:flex-row gap-4">
+      <Button variant="outline" className="flex items-center gap-2">
+        <Phone className="w-5 h-5" /> WhatsApp
+      </Button>
+      <Button variant="outline" className="flex items-center gap-2">
+        <Facebook className="w-5 h-5" /> Facebook
+      </Button>
+      <Button variant="outline" className="flex items-center gap-2">
+        <Instagram className="w-5 h-5" /> Instagram
+      </Button>
+    </div>
+  </section>
+</main>
 
+); }
 
-Não é a linguagem de programação que define o programador, mas sim sua lógica ✨
-
-##### E-mail: Joaovitor.silva2030@hotmail.com
 
